@@ -6,6 +6,6 @@ from .feeders.rfid_feeder import RFIDFeeder
 
 product_name_map : Dict[str, Type[Device]] = {
     "Granary Feeder": GranaryFeeder,
-    "Granary Camera Feeder": GranaryCameraFeeder
+    "Granary Camera Feeder": GranaryCameraFeeder,
     "One RFID Smart Feeder": RFIDFeeder,
 }
